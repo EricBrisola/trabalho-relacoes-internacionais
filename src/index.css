@@ -239,3 +239,78 @@ audio {
   box-shadow: var(--shadow-md);
   border: 1px solid var(--border);
 }
+
+/* Main Content Wrapper */
+.main-content {
+  padding-top: 70px;
+  min-height: calc(100vh - 105px);
+}
+
+/* --- Media Queries (Mobile Responsiveness) --- */
+@media (max-width: 768px) {
+  /* Navbar */
+  .navbar {
+    height: auto;
+    padding: 16px 0;
+  }
+  
+  .nav-container {
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+  }
+  
+  .nav-links a {
+    font-size: 0.95rem;
+  }
+  
+  /* Main Content Spacing */
+  .main-content {
+    padding-top: 130px; /* Offset for taller mobile navbar */
+  }
+  
+  /* Hero Section */
+  .hero {
+    padding: 60px 16px 40px;
+  }
+  
+  .hero h1 {
+    font-size: 2rem;
+  }
+  
+  .hero p {
+    font-size: 1rem;
+  }
+  
+  /* General Sections & Container */
+  .section {
+    padding: 50px 0;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .section-title {
+    font-size: 1.5rem;
+  }
+  
+  /* Cards */
+  .card {
+    padding: 24px 16px;
+  }
+  
+  /* PDF Container adjustments */
+  .pdf-container {
+    height: 400px;
+  }
+  
+  .pdf-container object {
+    height: 400px;
+  }
+}

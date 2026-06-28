@@ -11,7 +11,7 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <main style={{ paddingTop: "70px", minHeight: "calc(100vh - 105px)" }}>
+      <main className="main-content">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/seminario" element={<Seminario />} />
