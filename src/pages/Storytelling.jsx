@@ -11,7 +11,7 @@ export default function Storytelling() {
         
         <div className="video-wrapper">
           <iframe 
-            src="https://www.youtube.com/embed/jNQXAC9IVRw" 
+            src="https://youtu.be/mpp6lX0DqrI" 
             title="Vídeo de Storytelling" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
             allowFullScreen
